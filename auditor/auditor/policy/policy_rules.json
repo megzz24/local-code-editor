@@ -1,0 +1,345 @@
+{
+    "meta": {
+        "policy_ref": "FIN-TEP-2025",
+        "version": "3.2",
+        "effective_date": "2025-01-01",
+        "owner": "Finance & Compliance"
+    },
+    "general_principles": {
+        "section": "2",
+        "submission_deadline_days": 30,
+        "receipt_required_above_usd": 10
+    },
+    "seniority_tiers": {
+        "section": "11",
+        "Junior": {
+            "levels": [
+                "L1",
+                "L2"
+            ]
+        },
+        "Mid-Level": {
+            "levels": [
+                "L3",
+                "L4"
+            ]
+        },
+        "Senior": {
+            "levels": [
+                "L5",
+                "L6"
+            ]
+        },
+        "Executive": {
+            "levels": [
+                "L7+"
+            ]
+        }
+    },
+    "regional_multipliers": {
+        "section": "11",
+        "Tier1": {
+            "multiplier": 1.5,
+            "example_cities": [
+                "new york",
+                "san francisco",
+                "london",
+                "tokyo",
+                "zurich"
+            ]
+        },
+        "Tier2": {
+            "multiplier": 1.25,
+            "example_cities": [
+                "chicago",
+                "paris",
+                "sydney",
+                "singapore",
+                "amsterdam"
+            ]
+        },
+        "Tier3": {
+            "multiplier": 1.0,
+            "example_cities": []
+        },
+        "Tier4": {
+            "multiplier": 0.8,
+            "example_cities": []
+        }
+    },
+    "spending_limits_usd": {
+        "section": "3",
+        "meals_daily": {
+            "Junior": 40,
+            "Mid-Level": 60,
+            "Senior": 80,
+            "Executive": 120
+        },
+        "meals_single_lunch": {
+            "Junior": 15,
+            "Mid-Level": 20,
+            "Senior": 30,
+            "Executive": 50
+        },
+        "business_dinner_per_head": {
+            "Junior": 50,
+            "Mid-Level": 75,
+            "Senior": 100,
+            "Executive": 150
+        },
+        "local_transport_daily": {
+            "Junior": 20,
+            "Mid-Level": 30,
+            "Senior": 40,
+            "Executive": 60
+        },
+        "taxi_rideshare_trip": {
+            "Junior": 25,
+            "Mid-Level": 35,
+            "Senior": 50,
+            "Executive": null
+        },
+        "accommodation_domestic_night": {
+            "Junior": 120,
+            "Mid-Level": 150,
+            "Senior": 200,
+            "Executive": 300
+        },
+        "accommodation_international_night": {
+            "Junior": 150,
+            "Mid-Level": 200,
+            "Senior": 250,
+            "Executive": 400
+        },
+        "conference_registration": {
+            "Junior": 300,
+            "Mid-Level": 500,
+            "Senior": 800,
+            "Executive": 1500
+        },
+        "client_entertainment_event": {
+            "Junior": 75,
+            "Mid-Level": 150,
+            "Senior": 300,
+            "Executive": 500
+        },
+        "phone_data_monthly": {
+            "Junior": 30,
+            "Mid-Level": 50,
+            "Senior": 75,
+            "Executive": 100
+        },
+        "software_subscriptions_monthly": {
+            "Junior": 20,
+            "Mid-Level": 40,
+            "Senior": 80,
+            "Executive": 150
+        }
+    },
+    "category_keywords": {
+        "meals_daily": [
+            "meal",
+            "meals",
+            "food",
+            "restaurant",
+            "diner"
+        ],
+        "meals_single_lunch": [
+            "lunch"
+        ],
+        "business_dinner_per_head": [
+            "dinner",
+            "business dinner"
+        ],
+        "local_transport_daily": [
+            "local transport",
+            "metro",
+            "bus",
+            "train fare",
+            "commute"
+        ],
+        "taxi_rideshare_trip": [
+            "taxi",
+            "cab",
+            "rideshare",
+            "uber",
+            "ola",
+            "lyft"
+        ],
+        "accommodation_domestic_night": [
+            "hotel",
+            "accommodation",
+            "lodging",
+            "stay"
+        ],
+        "accommodation_international_night": [
+            "hotel international",
+            "international hotel",
+            "overseas stay"
+        ],
+        "conference_registration": [
+            "conference",
+            "registration",
+            "summit",
+            "seminar"
+        ],
+        "client_entertainment_event": [
+            "client entertainment",
+            "client dinner",
+            "client event"
+        ],
+        "phone_data_monthly": [
+            "phone",
+            "mobile",
+            "data plan",
+            "roaming"
+        ],
+        "software_subscriptions_monthly": [
+            "software",
+            "subscription",
+            "saas",
+            "license",
+            "licence"
+        ]
+    },
+    "alcohol_keywords": {
+        "section": "4.2",
+        "keywords": [
+            "beer",
+            "wine",
+            "whisky",
+            "whiskey",
+            "vodka",
+            "rum",
+            "gin",
+            "tequila",
+            "cocktail",
+            "champagne",
+            "liquor",
+            "alcohol",
+            "ale",
+            "lager",
+            "brandy"
+        ]
+    },
+    "prohibited_categories": {
+        "section": "8",
+        "items": [
+            {
+                "category": "Alcohol",
+                "examples": [
+                    "beer",
+                    "wine",
+                    "spirits",
+                    "cocktails"
+                ]
+            },
+            {
+                "category": "Personal entertainment",
+                "examples": [
+                    "movies",
+                    "sports events",
+                    "concerts",
+                    "theme parks"
+                ]
+            },
+            {
+                "category": "Personal travel add-ons",
+                "examples": [
+                    "insurance upgrades",
+                    "seat upgrades"
+                ]
+            },
+            {
+                "category": "Fines & penalties",
+                "examples": [
+                    "parking tickets",
+                    "traffic violations",
+                    "late fees"
+                ]
+            },
+            {
+                "category": "Gifts to employees",
+                "examples": [
+                    "birthday gifts",
+                    "farewell gifts"
+                ]
+            },
+            {
+                "category": "Political / charitable donations",
+                "examples": [
+                    "company-attributed donations"
+                ]
+            },
+            {
+                "category": "Gambling",
+                "examples": [
+                    "casinos",
+                    "betting apps",
+                    "online gaming"
+                ]
+            },
+            {
+                "category": "Personal care",
+                "examples": [
+                    "haircuts",
+                    "gym memberships",
+                    "massages"
+                ]
+            },
+            {
+                "category": "Luxury vehicle upgrades",
+                "examples": [
+                    "first class flights",
+                    "premium car rentals"
+                ]
+            },
+            {
+                "category": "Spousal / family travel",
+                "examples": [
+                    "unless pre-approved by C-suite"
+                ]
+            }
+        ],
+        "keywords": [
+            "movie",
+            "cinema",
+            "concert",
+            "theme park",
+            "casino",
+            "bet",
+            "gambling",
+            "haircut",
+            "gym",
+            "massage",
+            "spa",
+            "parking ticket",
+            "traffic fine",
+            "first class",
+            "first-class",
+            "insurance upgrade",
+            "seat upgrade",
+            "gift"
+        ]
+    },
+    "receipt_requirements": {
+        "section": "9",
+        "min_amount_for_receipt_usd": 10,
+        "photo_acceptable_max_usd": 25,
+        "original_or_pdf_required_above_usd": 25,
+        "manager_preapproval_required_above_usd": 500
+    },
+    "currency_rates_to_usd": {
+        "_comment": "Approximate conversion rates used ONLY to compare receipt amounts (which may be in any currency) against the USD limits in Section 3 and Section 9. Update as needed.",
+        "USD": 1.0,
+        "INR": 0.012,
+        "EUR": 1.08,
+        "GBP": 1.27
+    },
+    "verdicts": {
+        "section": "12",
+        "Approved": "Compliant and within limits. Proceeds to reimbursement.",
+        "Flagged": "Requires clarification or extra documentation. Employee must respond within 5 business days.",
+        "Rejected": "Violates a specific policy rule. Not reimbursed; appeal process available."
+    }
+}
